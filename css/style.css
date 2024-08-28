@@ -1,0 +1,50 @@
+/* Stile di base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+
+/* Stile del contenitore delle card */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Stile delle singole card */
+.team-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per l'immagine all'interno della card */
+.team-card img {
+    width: 100%;
+    height: auto;
+}
